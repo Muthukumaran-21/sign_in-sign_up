@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign up</title>
+    <link rel="icon"
+        href="https://png.pngtree.com/png-clipart/20200225/original/pngtree-initials-m-logo-vector-circle-letter-m-logo-png-image_5284792.jpg">
+</head>
+
+<body style="background-color: powderblue;">
+    <fieldset>
+        <legend><h1>Sign up</h1></legend>   
+    <form action="form.html">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Username" autofocus required minlength="6" maxlength="15"><br><br>
+        <label for="mail">E-Mail id</label>
+        <input type="email" placeholder="email id" required><br><br>
+        <label for="fname">first name</label>
+        <input type="text" id="fname" placeholder="firstname" required minlength="1"><br><br>
+        <label for="sname">Surname</label>
+        <input type="text" id="sname" required minlength="1" placeholder="Surname"><br><br>
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password" minlength="6" maxlength="12" required id="password"><br><br>
+        <label for="dob">Date of birth</label>
+        <input type="date" required id="dob"><br><br>
+        <label for="age">Age</label>
+        <input type="number" id="age" required placeholder="Age"><br><br>
+        <label for="dp">Upload your display picture</label>
+        <input type="file" id="dp"><br><br>
+        <label for="sex">Gender</label>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label><br><br>
+        <label for="nation">Nationality</label>
+        <select required>
+            <option value="none">select nationality</option>
+            <option value="India">Indian</option>
+            <option value="Britain">British</option>
+            <option value="Japan">Japanese</option>
+            <option value="France">French</option>
+            <option value="China">Chinese</option>
+            <option value="America">American</option>
+            <option value="Korea">Korean</option>
+        </select><br><br>
+        <label for="lang">Choose your mother tongue</label>
+        <input id="lang" list="language" required placeholder="Language">
+        <datalist id="language">
+            <option value="Tamil">Tamil</option>
+            <option value="English">English</option>
+            <option value="French">French</option>
+        </datalist><br><br>
+        <label for="eng">Range your English communication skills</label>
+        <input type="range" value="60"><br><br>
+        <input type="checkbox" id="policy" required>
+        <label for="policy">Agree to Privacy Policy</label><br><br>
+        <input type="submit" value="Sign up">
+        <input type="reset" value="Reset" ><br><br>
+        Already have an account? <a href="index.html">Log in</a>
+    </form> </fieldset>
+</body>
+
+</html>
